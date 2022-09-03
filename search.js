@@ -1,5 +1,5 @@
 function searchWord() {
-	var currentWord = document.getElementById('inputWord').value;
+	let currentWord = document.getElementById('inputWord').value;
 	if (myList.includes(currentWord) == true) {
 		alert("We know this one already!");
 	} else {
